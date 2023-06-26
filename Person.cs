@@ -11,7 +11,7 @@ namespace OOPExample
         public string firstName;
         public string middleName;
         public string lastName;
-
+        public Address PresentAddress { get; set; }
         public string GetFullName()
         {
             string fullName = firstName + " " + middleName + " " + lastName;

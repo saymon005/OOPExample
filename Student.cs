@@ -10,7 +10,7 @@ namespace OOPExample
     {
         private int ID;
         private string Name;
-        private string Address;
+        private string Mark;
         private string city;
 
         public string City
@@ -39,13 +39,13 @@ namespace OOPExample
             return ID;
         }
 
-        public void SetAddress(string Address)
+        public void SetMark(string Mark)
         {
-            this.Address = Address;
+            this.Mark = Mark;
         }
-        public string GetAddress()
+        public string GetMark()
         {
-            return Address;
+            return Mark;
         }
     }
 }
