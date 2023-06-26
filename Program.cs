@@ -15,6 +15,11 @@ namespace OOPExample
             person1.middleName = "Islam";
             person1.lastName = "Iftikar";
 
+            Person person2 = new Person();
+            person2.firstName = "MD";
+            person2.middleName = "Kamal";
+            person2.lastName = "Hossain";
+
             string fullName = person1.GetFullName();
 
             Console.WriteLine(fullName);
